@@ -6,6 +6,7 @@ Temel Python
 
 def flatten(l):
 
+
     return [e for m in l for e in (m if type(m) is l else [m])]
 
 2- Verilen listenin içindeki elemanları tersine döndüren bir fonksiyon yazın. Eğer listenin içindeki elemanlar da liste içeriyorsa onların elemanlarını da tersine döndürün.
