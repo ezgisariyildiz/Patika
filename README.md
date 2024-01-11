@@ -6,7 +6,6 @@ Temel Python
 
 
 def flatten(l):
-
     return [e for m in l for e in (m if type(m) is l else [m])]
 
 
